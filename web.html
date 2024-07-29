@@ -1,0 +1,259 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Jude's Portfolio</title>
+    <link rel="shortcut icon" href="happy.png" type="image/x-icon">
+    <meta name="description" content="Web designer and front-end developer">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400,600" rel="stylesheet" type="text/css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.css" rel="stylesheet" type="text/css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="web.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/wow/1.1.2/wow.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/2.7.4/jquery.fullPage.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css"/>
+	<link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,400;0,500;0,600;0,800;1,900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script src="web.js"></script>
+</head>
+<body>
+    <!-- navbar header -->
+    <div class="nav-header">
+        <div class="nav-brand">
+            <img src="letter-j.png" alt="Brad Engelhardt Logo">
+        </div>
+        <i class="fa fa-bars fa-3x"></i>
+        <div class="header-links">
+            <ul>
+                <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+                <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+                <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+            </ul>
+        </div>
+    </div>
+    <!-- end navbar header -->
+
+    <!-- sidebar slider -->
+    <div class="nav-screen">
+        <i class="fa fa-times fa-3x"></i>
+        <div class="nav-container">
+            <div class="nav-links">
+                <ul id='myMenu'>
+                    <li data-menuanchor="secondPage"><a href="#about">ABOUT</a></li>
+                    <li data-menuanchor="thirdPage"><a href="#portfolio">PORTFOLIO</a></li>
+                    <li data-menuanchor="fourthPage"><a href="#contact">CONTACT</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+    <!-- end navbar slider -->
+
+    <!-- begin fullpage -->
+    <div id="fullpage">
+        <!-- begin section -->
+        <div class="section aboutme" data-anchor="aboutme">
+            <div style="border: solid black 1px; max-width: 650px; margin-right: auto;margin-left: auto;">
+                <h1 style="color: azure; font-family:'Courier New', Courier, monospace;font-weight:200;font-size: 50px;"> PERSONAL PORTFOLIO</h1>
+            </div>
+            <div class="opaque-bg animated fadeInDown" style="display: flex; align-items: center;">
+                <div style="flex-grow: 1;">
+                    <h2 style="color:#ffffff; margin-bottom: 0px; font-weight: 200;">
+                        JUD<span style="color: #E35335;">E </span>
+                        <span style="color:#FFC300"> / </span>
+                        <span style="color:#E35335">A</span>ROCHA
+                    </h2>
+                    <!-- <p style="color:#E35335; padding-left: 01%;margin-top: 0px;">
+                        <span style="color:#E35335">○</span><span style="color:white">○</span>
+                        <span style="color:#FFC300">○ </span>A<span style="color: white;">ROCHA</span>
+                    </p> -->
+                    <p><span id="holder"></span><span class="blinking-cursor">|</span></p>
+                </div>
+                <div>
+                    <img src="pf.jpg" alt="" style="border: solid rgb(47, 47, 47) 3px; border-radius: 50%; width: 120px; margin-left: 20px;filter: grayscale(20%);" class="image">
+                    
+                </div>
+            </div>
+            <i id="moveDown" class="fa fa-chevron-down fa-3x bounce"></i>
+        </div>
+        <!-- end section -->
+
+        <!-- begin section -->
+        <div class="section" data-anchor="skills">
+            <div class="content">
+                <h1 class="wow fadeInDown" data-wow-delay="0.2s" style="text-shadow: 2px 2px #d9d9d9;"><span style="color: #FFC300; font-weight: 1000;">&lt;/</span>ABOUT ME<span style="color:#FFC300">&gt;</span></h1>
+                <p class="wow fadeInDown" data-wow-delay="0.2s">My name is Jude Arocha, an <span style="text-shadow: 2px 2px #d9d9d9;color: #E35335; font-weight: 1000;">IT</span> student. I am also a skilled web developer with a strong focus on backend development, 
+                    where I consistently demonstrate <span style="text-shadow: 2px 2px #d9d9d9;color: #E35335; font-weight: 1000;">confidence</span> and <span style="text-shadow: 2px 2px #d9d9d9;color: #E35335; font-weight: 1000;">proficiency</span> in my projects.</p>
+
+                <div class="wow fadeInUp container-skillbar" data-wow-delay="0.2s">
+                <div class="container1">
+                    <div class="container"  style="text-shadow: 2px 2px #d9d9d9;">
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/en/3/30/Java_programming_language_logo.svg" alt="Java" class="logo">
+                            <p>Java</p>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/6a/JavaScript-logo.png" alt="JavaScript" class="logo">
+                            <p>JavaScript</p>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/6/61/HTML5_logo_and_wordmark.svg" alt="HTML" class="logo">
+                            <p>HTML</p>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/d/d5/CSS3_logo_and_wordmark.svg" alt="CSS" class="logo">
+                            <p>CSS</p>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/2/27/PHP-logo.svg" alt="PHP" class="logo">
+                            <p>PHP</p>
+                        </div>
+                        <div class="tech-item">
+                            <img src="https://upload.wikimedia.org/wikipedia/commons/b/b2/Bootstrap_logo.svg" alt="Bootstrap" class="logo">
+                            <p>Bootstrap</p>
+                        </div>
+                    </div>
+                </div>
+                </div>
+            </div>
+        </div>
+        <!-- end section -->
+
+        <!-- begin section -->
+        <div class="section" data-anchor="projects">
+            <div class="content-slide">
+                <div class="slide">
+                    <h1 class="wow fadeInDown" data-wow-delay="0.2s" style="text-shadow: 2px 2px #d9d9d9;">FitFusion - GYM MANAGEMENT SYSTEM</h1>
+                    <p class="wow fadeInDown" data-wow-delay="0.2s">A gym database management system designed for efficient operations by managing memberships, tracking attendance, maintaining equipment inventory.</p>
+                    <img class="wow fadeInUp" data-wow-delay="0.2s" src="g_1.png" alt="XFAIRE">
+                </div>
+                <div class="slide">
+                    <h1 style="text-shadow: 2px 2px #d9d9d9;">FreshMart - POS</h1>
+                    <p>Point of Sale systems for fresh agriculture products facilitate inventory tracking, sales processing, and real-time data analytics.</p>
+                    <img src="SALES DASHBOARD.png" alt="Machete Energy">
+                </div>
+                
+            </div>
+        </div>
+        <!-- end section -->
+
+        <div class="section" id="f00ter">
+        <div class="container" id="container">
+            <main class="row">
+                
+                <!--  *******   Left Section (Column) Starts   *******  -->
+    
+                <section class="col left">
+                    
+                    <!--  *******   Title Starts   *******  -->
+    
+                    <div class="contactTitle">
+                        <h2 style="color: #ff6363;text-shadow: 1px 1px rgb(255, 255, 255);">Get In Touch</h2>
+                        <p>Jude Arocha</p>
+                        <p>BSIT Student</p>
+                    </div>
+    
+                    <!--  *******   Title Ends   *******  -->
+    
+                    <!--  *******   Contact Info Starts   *******  -->
+    
+                    <div class="contactInfo">
+                        
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fa-solid fa-phone"></i>
+                            </div>
+                            <div class="details">
+                                <span>Phone</span>
+                                <span>+639 35 538 9135</span>
+                            </div>
+                        </div>
+    
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fa-solid fa-envelope"></i>
+                            </div>
+                            <div class="details">
+                                <span>Email</span>
+                                <span>jude.arocha@gmail.com</span>
+                            </div>
+                        </div>
+    
+                        <div class="iconGroup">
+                            <div class="icon">
+                                <i class="fa-solid fa-location-dot"></i>
+                            </div>
+                            <div class="details">
+                                <span>Address</span>
+                                <span>PANABO CITY, DAVAO DEL NORTE</span>
+                            </div>
+                        </div>
+    
+                    </div>
+    
+                    <!--  *******   Contact Info Ends   *******  -->
+    
+                    <!--  *******   Social Media Starts   *******  -->
+    
+                    <div class="socialMedia">
+                        <a href="facebook.com"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="twitter.com"><i class="fa-brands fa-twitter"></i></a>
+                        <a href="instagram.com"><i class="fa-brands fa-instagram"></i></a>
+                        
+                    </div>
+    
+                    <!--  *******   Social Media Ends   *******  -->
+    
+                </section>
+    
+                <!--  *******   Left Section (Column) Ends   *******  -->
+    
+                <!--  *******   Right Section (Column) Starts   *******  -->
+    
+                <section class="col right">
+                    
+                    <!--  *******   Form Starts   *******  -->
+    
+                    <form class="messageForm">
+                        
+                        <div class="inputGroup halfWidth">
+                            <input type="text" name="" required="required">
+                            <label>Your Name</label>
+                        </div>
+    
+                        <div class="inputGroup halfWidth">
+                            <input type="email" name="" required="required">
+                            <label>Email</label>
+                        </div>
+    
+                        <div class="inputGroup fullWidth">
+                            <input type="text" name="" required="required">
+                            <label>Subject</label>
+                        </div>
+    
+                        <div class="inputGroup fullWidth">
+                            <textarea required="required"></textarea>
+                            <label>Say Something</label>
+                        </div>
+    
+                        <div class="inputGroup fullWidth">
+                            <button>Send Message</button>
+                        </div>
+    
+                    </form>
+    
+                    <!--  *******   Form Ends   *******  -->
+                </section>
+    
+                <!--  *******   Right Section (Column) Ends   *******  -->
+    
+            </main>
+        </div>
+    </div>
+        <!-- end section -->
+         
+    </div>
+    <!-- end fullpage -->
+</body>
+</html>
